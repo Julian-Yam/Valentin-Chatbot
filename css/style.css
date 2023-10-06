@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo{
+    background-image: none;
+}
+
+#title{
+ font-size: 500%;   
+ position: absolute;
+ color:aliceblue;
+ bottom: 40%;
+ right: 40%;
+ 
+}
