@@ -31,7 +31,7 @@
 .barnav ul li{
     
     list-style: none;
-    
+
     margin: 18px 12px; 
     float: right;
 }
@@ -44,21 +44,23 @@
     font-size: 1.2rem;
 }
 
-.barnav ul li a:hover{
+.barnav ul li a:hover {
     background: goldenrod;
     transition: .5s;
     padding: 7px 7px 7px 7px;
     border-radius: 5px;
 }
 
-.texto{
+.texto {
     position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(161, 108, 9);
+    font-size: 50px;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
 }
 
-.fondo{
-    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
-    background-position: center center; /* Centrar la imagen */
-    position: relative;
-    height: 100vh; /* Establecer la altura del contenedor al 100% del viewport height (altura de la ventana del navegador) */
-    color: #fff; 
-}
