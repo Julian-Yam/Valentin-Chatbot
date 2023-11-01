@@ -1,8 +1,10 @@
+/*Formato para el body*/
 * {
     margin: 0;
     padding: 0%;
 }
 
+/*Formato para div class cont*/
 .cont {
  width: 100%;
  height: 100vh;  
@@ -12,6 +14,7 @@
  font-family: "Roboto", sans-serif;
 }
 
+/*Parametros de barra de navegación*/
 .barnav {
     width: 85%;
     margin: auto;
@@ -21,46 +24,69 @@
     justify-content: space-between;
 }
 
-
+/*Logo valentín*/
 .logo {
     width: 250px;
     height: auto;
     cursor: pointer;
 }
 
+/*Etiqueta ul-li*/
 .barnav ul li{
-    
     list-style: none;
-
     margin: 18px 12px; 
     float: right;
 }
 
+/*Etiquetas a de ul-li*/
 .barnav ul li a {
-    
     text-decoration: none;
     color: black;
     font-family: Roboto "sans-serif";
-    font-size: 1.2rem;
+    font-size: 1.2rem;   
 }
 
+/*Parametros del hover(hover es una pseudo clase que se
+activa cuando el usuario pone el cursor encima)*/
 .barnav ul li a:hover {
     background: goldenrod;
-    transition: .5s;
+    transition: .3s;
     padding: 7px 7px 7px 7px;
     border-radius: 5px;
+    color: white;
 }
 
-.texto {
+/*Parametros de la imagen de fondo*/
+.texto-imagen {
     position: absolute;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    filter: brightness(90%);
+}
+
+/*Parametros del texto de la imagen*/
+.texto{
+    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(161, 108, 9);
-    font-size: 50px;
-    background-image: url("../img/fondo.jpg");
-    background-repeat: no-repeat;
+    font-size:100px;
+    filter: brightness(140%);
+    -webkit-text-stroke: 1.5px black;
 }
 
+.cont2 { 
+    width: 100%;
+    height: 100vh;  
+    background-size: cover;
+    background-repeat: no-repeat;  
+   }
+
+.info {
+    font-family: "Roboto", sans-serif;  
+    text-align: right;
+    background-color: aquamarine;
+}
