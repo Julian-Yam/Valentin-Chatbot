@@ -1,5 +1,5 @@
 <?php 
- 
+
 $servidor = "localhost"; // El servidor que utilizamos  
 $usuario = "valentin"; // El usuario  
 $contraseña = "valentin1"; // La contraseña del usuario 
@@ -24,7 +24,7 @@ if (!$conexion) {
 /* 
 En esta linea seleccionaremos la BD con la que trabajaremos y le pasaremos como referencia la conexión al servidor. 
 */
- 
+
 mysqli_select_db( $BD, $conexion) or die(mysqli_error($conexion)); 
- 
+
 ?>
