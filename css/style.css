@@ -115,3 +115,13 @@ activa cuando el usuario pone el cursor encima)*/
     left: 30%;
     position: absolute;
 }
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: orange;
+    border-radius: 10px;
+}
