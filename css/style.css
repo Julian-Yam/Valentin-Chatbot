@@ -17,11 +17,14 @@
 /*Parametros de barra de navegación*/
 .barnav {
     width: 85%;
+    height: 80px;
+    background-color: white;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 /*Logo valentín*/
@@ -55,6 +58,20 @@ activa cuando el usuario pone el cursor encima)*/
     border-radius: 5px;
     color: white;
 }
+/*Diseño del chatbot*/
+.chat{
+    width: 10vw;
+    height: 10vh;
+    position: relative;   
+    float: right; 
+    position: sticky;   
+    top: 40%;
+}
+/*El margen del chatbot div*/
+.imgchat{
+    width: 10vw;
+    height: 10vh;
+}
 
 /*Parametros de la imagen de fondo*/
 .texto-imagen {
@@ -74,16 +91,14 @@ activa cuando el usuario pone el cursor encima)*/
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(161, 108, 9);
+    color: white;
     font-size: 100px;
     padding-left: 20px;
-    filter: brightness(140%);
-    -webkit-text-stroke: .6px black;
 }
 
 .cont2 { 
     width: 100%;
-    height: 100vh;  
+    height: 100%;  
     background-size: cover;
     background-repeat: no-repeat;  
    }
@@ -91,7 +106,7 @@ activa cuando el usuario pone el cursor encima)*/
 .info {
     font-family: "Roboto", sans-serif;  
     text-align: right;
-    background-color: rgb(117, 119, 114);
+    background-color: #d39200;
 }
 
 .frame{
@@ -100,10 +115,11 @@ activa cuando el usuario pone el cursor encima)*/
 }
 
 .reloj{
-    background-color: goldenrod;
+    background-color: #d39200;
     width: 100%;
     height: 70px;
     position: relative;
+    font-family: "Roboto", sans-serif;
 }
 
 .relojTexto{
@@ -116,12 +132,71 @@ activa cuando el usuario pone el cursor encima)*/
     position: absolute;
 }
 
+    
 .login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    background: orange;
+    width: 350px;
     border-radius: 10px;
+    background: goldenrod;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.datoslog{
+    padding-top: 20px;
+}
+
+.datoslog .username{
+    padding-bottom: 15px; 
+}
+
+.inputNombre{
+    width: 240px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.datoslog .correo{
+    padding-bottom: 15px;
+}
+
+.inputCorreo{
+    width: 240px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.texcom{
+    padding: 10px;
+}
+
+.botonLogin{
+    padding: 20px 20px 30px 10%;
+    
+}
+
+.botonIniciar{
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f9db5c;
+    font-size: 20px;   
+}
+
+.salida{
+    padding: 20px 20px 30px 30%;
 }

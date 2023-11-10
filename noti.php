@@ -10,20 +10,7 @@
 <body>
       
    <div class="cont">
-            <div class="reloj">
-                <div class="relojTexto">
-                    <?php
-                        // Configura la zona horaria de México
-                        date_default_timezone_set('America/Cancun');
-                        // Obtiene la hora y fecha actual en México
-                        $fechaHoraMexico = date('Y-m-d')." y la hora ". date('H:i');
-                        echo "La fecha en mexico es: $fechaHoraMexico<br>";
-                        date_default_timezone_set("Europe/Madrid");
-                        $fechaHoraEspana = date('Y-m-d')." y la hora ". date('H:i');
-                        echo "La fecha en España es: $fechaHoraEspana";
-                    ?>
-                </div>
-            </div>
+          
             
             <div class="barnav" aling>
                 <img src="img/logo.jpg" class="logo" alt="Main logo">
@@ -41,6 +28,7 @@
                         <li><a href="paginas/cristal.php">Cristal</a></li>
                     </ul>
             </div>
+    
 
     <div class="texto-imagen">
             <div class="texto">
@@ -48,8 +36,32 @@
             </div>
     </div>
 
+        <!--Este es el div donde se encuentra la imagen del chat bot-->
+        <div class="chat">
+                    <a href="paginas/login.php">
+                    <img src="https://media.giphy.com/media/WEiKBTaESHHhK/giphy.gif" class="imgchat" alt="undefined">
+                    </a>
+        </div>
+
+        <!--Es la informacion de abajo-->
+        
     <div class="cont2">
-    </div>
+   
+    <!--Esto es el reloj de la parte frontal-->
+    <div class="reloj">
+                <div class="relojTexto">
+                    <?php
+                        // Configura la zona horaria de México
+                        date_default_timezone_set('America/Cancun');
+                        // Obtiene la hora y fecha actual en México
+                        $fechaHoraMexico = date('Y-m-d')." y la hora ". date('H:i');
+                        echo "La fecha en mexico es: $fechaHoraMexico<br>";
+                        date_default_timezone_set("Europe/Madrid");
+                        $fechaHoraEspana = date('Y-m-d')." y la hora ". date('H:i');
+                        echo "La fecha en España es: $fechaHoraEspana";
+                    ?>
+                </div>
+            </div>
             <p class="info">
                 Playa del Secreto( Carretera Federal 307 Chetumal-Puerto Juárez km 311,5 77710 ).
                 <br>
