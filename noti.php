@@ -52,8 +52,8 @@
                                 </div>
 
                             <!--Este es el div donde se encuentra la imagen del chat bot-->
-                            <div class="chat">
-                                    <a href="paginas/login.php">
+                            <div class="cuadro2">
+                                    <a href="paginas/chatbot.php">
                                         <img src="https://media.giphy.com/media/WEiKBTaESHHhK/giphy.gif" class="imgchat" alt="undefined">
                                     </a>
                             </div>

@@ -60,14 +60,15 @@ activa cuando el usuario pone el cursor encima)*/
     color: white;
 }
 /*Diseño del chatbot*/
-.chat{
+.cuadro2{
     width: 10vw;
     height: 10vh;
     position: relative;   
-    float: right; 
+    float: right;
     position: sticky;   
     top: 40%;
 }
+
 /*El margen del chatbot div*/
 .imgchat{
     width: 10vw;
@@ -224,4 +225,54 @@ activa cuando el usuario pone el cursor encima)*/
     padding-right: 30px;
     padding-bottom: 10px;
     font-family: 'Georgia',sans-serif;
+}
+
+.contenedor{
+    width: 800px;
+    height: 800px;
+   
+}
+
+#muñeco{
+    height: 40px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.chat{
+  
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    background: gray;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    color: aliceblue;
+    font-family: 'Georgia',sans-serif;
+}
+
+.mensaje{
+    width: 300px;
+    height: 60px;
+    background-color: peru;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+#cajaDePregunta{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    
+}   
+
+#textIngre{
+    width: 200px;
+    height: 50px;
 }
