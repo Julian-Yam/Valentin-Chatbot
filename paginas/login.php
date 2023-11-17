@@ -22,9 +22,11 @@
             </div>
             <div class="texcom">Para comenzar presione iniciar</div>
                 <div class="botonLogin">
-                    <input type="submit" value="Iniciar" class="botonIniciar">
+                    <input href="chatbot.php" type="submit" value="Iniciar" class="botonIniciar">
                 </div>
+                <div class="botonSalida">
                     <a href="../noti.php" class="salida">Salir del chatbot</a>
+                </div>            
             </div>
         </form>
     </div>

@@ -10,8 +10,6 @@
 <body>
       
    <div class="cont">
-          
-            
             <div class="barnav" aling>
                 <img src="img/logo.jpg" class="logo" alt="Main logo">
                     <ul>
@@ -30,51 +28,52 @@
             </div>
     
 
-    <div class="texto-imagen">
-            <div class="texto">
-                 <p>Bienvenido a Valentín Imperial Riviera Maya</p>
-            </div>
-    </div>
+                <div class="cont2">
+            <!--Esto es el reloj de la parte frontal-->
+                    <div class="reloj">
+                        <div class="relojTexto">
+                            <?php
+                                // Configura la zona horaria de México
+                                date_default_timezone_set('America/Cancun');
+                                // Obtiene la hora y fecha actual en México
+                                $fechaHoraMexico = date('Y-m-d')." ...  hora ". date('H:i');
+                                echo "Fecha en mexico: $fechaHoraMexico<br>";
+                                date_default_timezone_set("Europe/Madrid");
+                                $fechaHoraEspana = date('Y-m-d')." ...  hora ". date('H:i');
+                                echo "Fecha en España: $fechaHoraEspana";
+                            ?>
+                        </div>
+                    </div>    
+                </div>
 
-        <!--Este es el div donde se encuentra la imagen del chat bot-->
-        <div class="chat">
-                    <a href="paginas/login.php">
-                    <img src="https://media.giphy.com/media/WEiKBTaESHHhK/giphy.gif" class="imgchat" alt="undefined">
-                    </a>
-        </div>
+                        <div class="texto-imagen">
+                                <div class="texto">
+                                    <p>Bienvenido a Valentín Imperial Riviera Maya</p>
+                                </div>
+
+                            <!--Este es el div donde se encuentra la imagen del chat bot-->
+                            <div class="chat">
+                                    <a href="paginas/login.php">
+                                        <img src="https://media.giphy.com/media/WEiKBTaESHHhK/giphy.gif" class="imgchat" alt="undefined">
+                                    </a>
+                            </div>
+
+                        </div>
+
+       
 
         <!--Es la informacion de abajo-->
-        
-    <div class="cont2">
-   
-    <!--Esto es el reloj de la parte frontal-->
-    <div class="reloj">
-                <div class="relojTexto">
-                    <?php
-                        // Configura la zona horaria de México
-                        date_default_timezone_set('America/Cancun');
-                        // Obtiene la hora y fecha actual en México
-                        $fechaHoraMexico = date('Y-m-d')." y la hora ". date('H:i');
-                        echo "La fecha en mexico es: $fechaHoraMexico<br>";
-                        date_default_timezone_set("Europe/Madrid");
-                        $fechaHoraEspana = date('Y-m-d')." y la hora ". date('H:i');
-                        echo "La fecha en España es: $fechaHoraEspana";
-                    ?>
-                </div>
-            </div>
-            <p class="info">
-                Playa del Secreto( Carretera Federal 307 Chetumal-Puerto Juárez km 311,5 77710 ).
-                <br>
-                Tel: +52 984 206 3660
-                <br>
-                Ext: 8209/8210.
-                <br>
-                Todos los Derechos Reservados © 2021
-            </p>
-        </div>
-
-    </div>   
-
+                            <div class="cont3">
+                                <p class="info">
+                                    Playa del Secreto( Carretera Federal 307 Chetumal-Puerto Juárez km 311,5 77710 ).
+                                    <br>
+                                    Tel: +52 984 206 3660
+                                    <br>
+                                    Ext: 8209/8210.
+                                    <br>
+                                    Todos los Derechos Reservados © 2021
+                                </p>
+                            </div>
    </div>
 
     

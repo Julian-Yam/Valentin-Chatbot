@@ -11,7 +11,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
-    font-family: "Roboto", sans-serif;
+    font-family: "Georgia", sans-serif;
+    position: relative;
 }
 
 /*Parametros de barra de navegación*/
@@ -45,7 +46,7 @@
 .barnav ul li a {
     text-decoration: none;
     color: black;
-    font-family: Roboto "sans-serif";
+    font-family: "Geordia" "sans-serif";
     font-size: 1.2rem;   
 }
 
@@ -73,40 +74,61 @@ activa cuando el usuario pone el cursor encima)*/
     height: 10vh;
 }
 
+.cont2 { 
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.reloj{
+    background-color: #02577e;
+    width: 100vw;
+    height: 70px;
+    position: relative;
+    font-family: "Georgia", sans-serif; 
+}
+
+.relojTexto{
+    color: #f0efea;
+    font-size: 20px;
+    text-align: center;
+    margin: 0%;
+    top: 10%;
+    left: 33%;
+    position: absolute;
+    display: flex;
+}
+
 /*Parametros de la imagen de fondo*/
 .texto-imagen {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
+    position: relative;
     background-image: url("../img/fondo.jpg");
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 100vw;;
     filter: brightness(90%);
 }
 
 /*Parametros del texto de la imagen*/
 .texto{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 40%;
+    left: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 100px;
-    padding-left: 20px;
+    font-size: 30px;
 }
 
-.cont2 { 
-    width: 100%;
-    height: 100%;  
-    background-size: cover;
-    background-repeat: no-repeat;  
-   }
-
 .info {
-    font-family: "Roboto", sans-serif;  
+    font-family: "Georgia", sans-serif;  
     text-align: right;
-    background-color: #d39200;
+    background-color: #7bd3dd;
 }
 
 .frame{
@@ -114,24 +136,10 @@ activa cuando el usuario pone el cursor encima)*/
     height: 100vh;     
 }
 
-.reloj{
-    background-color: #d39200;
-    width: 100%;
-    height: 70px;
-    position: relative;
-    font-family: "Roboto", sans-serif;
+.cont3{
+    width: 100vw;
+    height: 80px;
 }
-
-.relojTexto{
-    color: beige;
-    font-size: 20px;
-    text-align: center;
-    margin: 0%;
-    top: 10%;
-    left: 30%;
-    position: absolute;
-}
-
     
 .login{
     position: absolute;
@@ -140,12 +148,12 @@ activa cuando el usuario pone el cursor encima)*/
     transform: translate(-50%, -50%);
     width: 350px;
     border-radius: 10px;
-    background: goldenrod;
+    background: #02577e;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
     color: aliceblue;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Georgia',sans-serif;
 }
 
 
@@ -163,6 +171,7 @@ activa cuando el usuario pone el cursor encima)*/
     border: none;
     border-radius: 5px;
     padding-left: 10px;
+    font-family: 'Georgia',sans-serif;
 }
 
 .datoslog .correo{
@@ -175,14 +184,17 @@ activa cuando el usuario pone el cursor encima)*/
     border: none;
     border-radius: 5px;
     padding-left: 10px;
+    font-family: 'Georgia',sans-serif;
 }
 
 .texcom{
     padding: 10px;
+    font-family: 'Georgia',sans-serif;
 }
 
 .botonLogin{
-    padding: 20px 20px 30px 10%;
+    padding: 20px 20px 20px 10%;
+    font-family: 'Georgia',sans-serif;
     
 }
 
@@ -193,10 +205,23 @@ activa cuando el usuario pone el cursor encima)*/
     padding-bottom: 15px;
     border: none;
     border-radius: 10px;
-    background-color: #f9db5c;
+    background-color: #7bd3dd;
     font-size: 20px;   
+    font-family: 'Georgia',sans-serif;
 }
 
+.botonSalida{
+    padding: 10px 10px 10px 20%;
+    font-family: 'Georgia',sans-serif;
+}
 .salida{
-    padding: 20px 20px 30px 30%;
+    background-color: #f0efea;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-family: 'Georgia',sans-serif;
 }
